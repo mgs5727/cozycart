@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CozyCart Market | Home</title>
+
+  <!-- EXTERNAL CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- INTERNAL CSS (assignment requires this too) -->
+  <style>
+    /* Internal CSS: small page-specific touches */
+    .tagline {
+      font-style: italic;
+      opacity: 0.9;
+    }
+    .sale-badge {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- HEADER AREA -->
+  <header class="site-header">
+    <div class="header-left">
+      <!-- Image in header (logo) -->
+      <img src="logo.png" alt="CozyCart Market Logo" class="logo" />
+      <div>
+        <h1 class="brand">CozyCart Market</h1>
+        <p class="tagline">Everyday essentials, cozy prices.</p>
+      </div>
+    </div>
+
+    <!-- INLINE CSS (assignment requires inline too) -->
+    <div style="text-align:right;">
+      <p style="margin:0; font-weight:600;">Call Us: (555) 123-4567</p>
+      <p style="margin:0;">Open: Mon–Sat 9am–7pm</p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="nav-link active" href="home.html">Home</a>
+    <a class="nav-link" href="#">About</a>
+    <a class="nav-link" href="#">Products</a>
+    <a class="nav-link" href="#">Deals</a>
+    <a class="nav-link" href="#">Cart</a>
+    <a class="nav-link" href="#">Contact</a>
+    <a class="nav-link" href="signup.html">Sign Up</a>
+  </nav>
+
+  <!-- MAIN CONTENT AREA -->
+  <main class="container">
+    <!-- Hero / Featured section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to CozyCart!</h2>
+
+        <!-- Internal CSS class used here -->
+        <span class="sale-badge" style="background:#ffefc2;">🔥 Weekly Sale</span>
+
+        <p>
+          Shop trending home goods, snacks, and everyday favorites. Fast pickup options and friendly service.
+        </p>
+
+        <!-- Inline CSS example -->
+        <a href="#" class="btn" style="text-decoration:none;">Shop Deals</a>
+      </div>
+
+      <!-- Image in main content -->
+      <img src="hero.jpg" alt="Featured products on a table" class="hero-img" />
+    </section>
+
+    <!-- Current Product Sales -->
+    <section class="section">
+      <h3>Current Product Sales</h3>
+
+      <div class="card-grid">
+        <article class="card">
+          <img src="product1.jpg" alt="Ceramic Mug Set" class="card-img" />
+          <div class="card-body">
+            <h4>Ceramic Mug Set (4-pack)</h4>
+            <p class="price">$14.99 <span class="old-price">$19.99</span></p>
+            <p>Perfect for coffee, tea, and hot cocoa.</p>
+            <button class="btn-small">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="product2.jpg" alt="LED Desk Lamp" class="card-img" />
+          <div class="card-body">
+            <h4>LED Desk Lamp</h4>
+            <p class="price">$22.50 <span class="old-price">$29.95</span></p>
+            <p>Adjustable brightness with modern style.</p>
+            <button class="btn-small">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="product3.jpg" alt="Snack Variety Box" class="card-img" />
+          <div class="card-body">
+            <h4>Snack Variety Box</h4>
+            <p class="price">$11.25 <span class="old-price">$15.00</span></p>
+            <p>Great for studying and late-night cravings.</p>
+            <button class="btn-small">Add to Cart</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Aside area for ads/marketing -->
+    <aside class="aside">
+      <h3>Deals & Announcements</h3>
+      <ul>
+        <li><strong>Free pickup</strong> on orders over $25</li>
+        <li>New arrivals every Friday</li>
+        <li>Student discount: show your ID in-store</li>
+      </ul>
+
+      <!-- Inline CSS example inside aside -->
+      <p style="margin-top:14px;">
+        <strong>Newsletter:</strong> Get sale alerts weekly.
+        <a href="#" style="font-weight:700;">Sign up</a>
+      </p>
+    </aside>
+  </main>
+
+  <!-- FOOTER AREA -->
+  <footer class="site-footer">
+    <p>&copy; 2026 CozyCart Market. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Terms of Use</a>
+      <a href="#">Cookie & Privacy Policy</a>
+      <a href="#">Support</a>
+    </div>
+  </footer>
+</body>
+</html>
